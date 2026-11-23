@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imgs/informe-medico.png">
+    <title>Nueva noticia</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <figure style="text-align: center; margin: 0; width: 120px;">
+                <a href="/index.html"><img src="/imgs/volver-flecha.png" alt="" width="50"><figcaption>Volver</figcaption></a>
+            </figure>
+        </div>
+        </nav>
+    </header>
+    
+    <hr>
+    <form action="#">
+    <fieldset>
+        <legend><h3>Titulo</h3></legend>
+        <p>
+            <label for="doctor">Titulo Noticia:</label>
+            <input type="text" placeholder="Titulo de la noticia" id="titulo" required>
+        </p>
+        <p>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" required>
+        </p>
+    </fieldset>
+        <fieldset>
+        <legend><h3>Editorial</h3></legend>
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" placeholder="Nombre editorial" id="nombre" required>
+        <br><br>
+        </fieldset>
+        <br><br>
+        <fieldset>
+        <legend><h3>Subtitulo</h3></legend>
+        <p>
+            <label for="doctor">Subtitulo de la noticia: </label>
+            <input type="text" placeholder="Subtitulo de la noticia" id="titulo" required>
+        </p>
+    </fieldset>
+    
+    <fieldset>
+        <legend><h3>Texto</h3></legend>
+        <p>
+            <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Texto de la noticia"></textarea>
+        </p>
+    </fieldset>
+        <br><br>
+        <button type="submit">Guardar</button>
+        <button type="reset">Reinicar</button>
+    </form>
+</body>
+</html>
